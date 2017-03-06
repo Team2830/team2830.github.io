@@ -6,278 +6,243 @@
 <link rel="stylesheet" href="css/w3.css">
 <link rel="stylesheet" href="css/w3-theme-black.css">
 <link rel="stylesheet" href="css/pageSwitch.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://www.jqueryscript.net/css/jquerysctipttop.css"
+	rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Pacifico'
+	rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="css/pageSwitch.min.css">
 <link rel="stylesheet" href="css/imageGallery.css">
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-<script src="js/pageSwitch.min.js"></script> 
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+	type="text/javascript"></script>
+<script src="js/pageSwitch.min.js" type="text/javascript"></script>
 
 
 <body id="myPage">
 
-<!-- Side Navigation on click -->
-<nav class="w3-sidenav w3-white w3-card-2 w3-animate-left" style="display:none;z-index:2" id="mySidenav">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-closenav w3-xxxlarge w3-text-teal">Close
-    <i class="fa fa-remove"></i>
-  </a>
-  <a href="#">Link 1</a>
-  <a href="#">Link 2</a>
-  <a href="#">Link 3</a>
-  <a href="#">Link 4</a>
-  <a href="#">Link 5</a>
-</nav>
 
-<!-- Navbar -->
-<div class="w3-top">
- <div class="w3-bar w3-theme-d2 w3-left-align">
-  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-opennav w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-  <a href="#" class="w3-bar-item w3-button">2830</a>
-  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
-  <a href="#robot" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Robot</a>
-  <a href="#events" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Events</a>
-  <a href="#sponsor" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Sponsors</a>
-   </div>
+	<!-- Navbar -->
+	<div class="w3-top">
+		<div class="w3-bar w3-theme-d2 w3-left-align">
+			<a
+				class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-opennav w3-right w3-hover-white w3-theme-d2"
+				href="javascript:void(0);" onclick="openNav()"><i
+				class="fa fa-bars"></i></a> <a href="#" class="w3-bar-item w3-button">2830</a>
+			<a href="#team"
+				class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
+			<a href="#robot"
+				class="w3-bar-item w3-button w3-hide-small w3-hover-white">Robot</a>
+			<a href="#events"
+				class="w3-bar-item w3-button w3-hide-small w3-hover-white">Events</a>
+			<a href="#sponsor"
+				class="w3-bar-item w3-button w3-hide-small w3-hover-white">Sponsors</a>
+		</div>
 
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
-    <a href="#team" class="w3-bar-item w3-button">Team</a>
-    <a href="#robot" class="w3-bar-item w3-button">Robot</a>
-    <a href="#events" class="w3-bar-item w3-button">Events</a>
-    <a href="#sponsor" class="w3-bar-item w3-button">Sponsors</a>
-      </div>
-</div>
-<!-- Navbar -->
-<!-- 
-<div class="w3-top">
- <div class="w3-bar w3-theme-d2 w3-left-align">
-  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-opennav w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Logo</a>
-  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Team</a>
-  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Work</a>
-  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Price</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
-  <div class="w3-hide-small w3-dropdown-hover">
-    <button class="w3-button" title="Notifications">Dropdown <i class="fa fa-caret-down"></i></button>     
-    <div class="w3-dropdown-content w3-white w3-card-4">
-      <a href="#">Link</a>
-      <a href="#">Link</a>
-      <a href="#">Link</a>
-    </div>
-  </div>
-  <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
- </div>
---!>
+		<!-- Navbar on small screens -->
+		<div id="navDemo"
+			class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+			<a href="#team" class="w3-bar-item w3-button">Team</a> <a
+				href="#robot" class="w3-bar-item w3-button">Robot</a> <a
+				href="#events" class="w3-bar-item w3-button">Events</a> <a
+				href="#sponsor" class="w3-bar-item w3-button">Sponsors</a>
+		</div>
+	</div>
+
 <!-- Image Header -->
 
-<div class="w3-display-container w3-animate-opacity w3-center w3-padding-32 w3-theme-d1">
-<div id="container">
-  <div class="sections">
-    <div class="section" id="section0">
-      <h4></h4>
-    </div>
-    <div class="section" id="section1">
-      <h4></h4>
-    </div>
-    <div class="section" id="section2">
-      <h4></h4>
-    </div>
-    <div class="section" id="section3">
-      <h4></h4>
-    </div>
-    <div class="section" id="section4">
-      <h4></h4>
-    </div>
-   </div>
-</div>
-<script>
-		$("#container").PageSwitch({
-			direction:'horizontal',
-			easing:'ease-in',
-			duration:1000,
-			autoPlay:true
-		});
-</script>
-       We are Milwaukee Riverside RoboTigers - 2830
-</div>
-<!-- Modal -->
-<div id="id01" class="w3-modal">
-  <div class="w3-modal-content w3-card-8 w3-animate-top">
-    <header class="w3-container w3-teal"> 
-      <span onclick="document.getElementById('id01').style.display='none'" class="w3-closebtn"><i class="fa fa-remove"></i></span>
-      <h4>Oh snap! We just showed you a modal..</h4>
-      <h5>Because we can <i class="fa fa-smile-o"></i></h5>
-    </header>
-    <footer class="w3-container w3-teal">
-      <p>Modal footer</p>
-    </footer>
-  </div>
-</div>
+	<div
+		class="w3-display-container w3-animate-opacity w3-center w3-padding-32 w3-theme-d1">
+		<div id="container">
+			<div class="sections">
+				<div class="section" id="section0">
+					<h4></h4>
+				</div>
+				<div class="section" id="section1">
+					<h4></h4>
+				</div>
+				<div class="section" id="section2">
+					<h4></h4>
+				</div>
+				<div class="section" id="section3">
+					<h4></h4>
+				</div>
+				<div class="section" id="section4">
+					<h4></h4>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$("#container").PageSwitch({
+				direction : 'horizontal',
+				easing : 'ease-in',
+				duration : 1500,
+				autoPlay : true
+			});
+		</script>
+		We are Milwaukee Riverside RoboTigers - 2830
+	</div>
 
 <!-- Team Container -->
-<div class="w3-container w3-padding-64 w3-center" id="team">
-<h2>OUR TEAM</h2>
-<br />
-The Milwaukee Riverside RoboTigers are taking STEM out of the classroom and onto the competitive field. 
-We are a group of students that are representative of our urban city, active in Engineering, Design, programming and development, and compete in FIRST robotics FRC.
+	<div class="w3-container w3-padding-64 w3-center" id="team">
+		<h2>OUR TEAM</h2>
+		<br /> The Milwaukee Riverside RoboTigers are taking STEM out of the
+		classroom and onto the competitive field. We are a group of students
+		that are representative of our urban city, active in Engineering,
+		Design, programming and development, and compete in FIRST robotics
+		FRC.
 
-<div class="w3-row"><br>
+		<div class="w3-row">
+			<br>
+			<div class="w3-third">
+				<img src="img/Driving.jpg" alt="Driving" style="width: 100%"
+					class="w3-circle w3-hover-opacity">
+				<h3>Having Fun!</h3>
+			</div>
 
-<div class="w3-third">
-  <img src="img/Driving.jpg" alt="Driving" style="width:100%" class="w3-circle w3-hover-opacity">
-  <h3>Having Fun!</h3>
-</div>
-
-<div class="w3-third">
-  <img src="img/Building.jpg" alt="Building" style="width:100%" class="w3-circle w3-hover-opacity">
-  <h3>Building</h3>
-</div>
+			<div class="w3-third">
+				<img src="img/Building.jpg" alt="Building" style="width: 100%"
+					class="w3-circle w3-hover-opacity">
+				<h3>Building</h3>
+			</div>
 
 
-<div class="w3-third">
-  <img src="img/Learning.jpg" alt="Learning" style="width:100%" class="w3-circle w3-hover-opacity">
-  <h3>Learning</h3>
-</div>
+			<div class="w3-third">
+				<img src="img/Learning.jpg" alt="Learning" style="width: 100%"
+					class="w3-circle w3-hover-opacity">
+				<h3>Learning</h3>
+			</div>
 
-</div>
+		</div>
 
 <!-- Robot Row -->
-<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="robot">
+		<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="robot">
 
-<h2>Peligroso!</h2>
-  <img src="img/peligroso.png" alt="Peligroso" style="max-width:600px;max-height:600px;" />
-</div>
+			<h2>Peligroso!</h2>
+			<img src="img/peligroso.png" alt="Peligroso"
+				style="max-width: 600px; max-height: 600px;" />
+		</div>
 
-
-</div>
+	</div>
 
 <!-- Events Row -->
-<div class="w3-row-padding w3-padding-64 w3-theme-d1" id="events">
+	<div class="w3-row-padding w3-padding-64 w3-theme-d1" id="events">
 
-<h2>Events</h2>
-<div class="w3-third">
-<a href="http://www.wisconsinfrc.com/wisconsin-regional" target="_blank"> Wisconsin Regional</a>
-</div>
-<div class="w3-third">
-<a href="https://frc-events.firstinspires.org/2017/WILA" target="_blank">7 Rivers Regional</a>
-</div>
-<div class="w3-third">
-<a href="https://frc-events.firstinspires.org/2017/WILA" target="_blank">World Championships!</a>
-</div>
+		<h2>Events</h2>
+		<div class="w3-third">
+			<a href="http://www.wisconsinfrc.com/wisconsin-regional"
+				target="_blank"> Wisconsin Regional</a>
+		</div>
+		<div class="w3-third">
+			<a href="https://frc-events.firstinspires.org/2017/WILA"
+				target="_blank">7 Rivers Regional</a>
+		</div>
+		<div class="w3-third">
+			<a href="https://frc-events.firstinspires.org/2017/WILA"
+				target="_blank">World Championships!</a>
+		</div>
 
 
-</div>
+	</div>
 
 <!-- Sponsors Container -->
-<div class="w3-row-padding w2-padding-32 w3-theme-l5"  id="sponsor">
-
-<h2>Sponsors</h2>
-<p />
-These are the groups that make it possible for us to become the next engineers to impact your world! <p />
-  <div class="w3-row">
-    <div class="w3-col m10">
-  <div class="w3-quarter w3-padding-16">
-<a href="http://www.greatermilwaukeefoundation.org/grants/grant-seekers/other-grant-opportunities/bucyrus/" target="_blank">Bucyrus Foundation</a>
-</div>
-<div class="w3-quarter w3-padding-16">
-<a href="http://harley-davidson.com" target="_blank"><img src="/img/hdLogo.png"  class="w3-quarter-image" /></a>
-</div>
-<div class="w3-quarter w3-padding-16">
-<a href="https://www.rockwellautomation.com/" target="_blank"><img src='/img/Rockwell.png' class="w3-quarter-image" /></a>
-</div>
-<div class="w3-quarter w3-padding-16">
-<a href="http://www.bliffertlumber.com/" target="_blank"><img src='/img/bliffert-lumber-logo.png' class="w3-quarter-image" /></a>
-</div>
-</div></div>
-  <div class="w3-row">
-    <div class="w3-col m10">
-  <div class="w3-quarter w3-padding-16">
-<a href="#sponsor">George Mosher</a>
-</div>
-<div class="w3-quarter w3-padding-16">
-<a href="http://www5.milwaukee.k12.wi.us/school/riverside/" target="_blank"><img src="img/RoboTigersLogo-small.png" class="w3-quarter-image" /></a>
-</div>
-<div class="w3-quarter w3-padding-16">
-<a href="http://www3.gehealthcare.com/en/global_gateway" target="_blank"><img src='/img/ge.png' class="w3-quarter-image" /></a>
-</div>
-<div class="w3-quarter w3-padding-16">
-<a href="https://www.genmet.com/" target="_blank"><img src='/img/genmet.png' class="w3-quarter-image" /></a>
-</div>
-</div></div></div>
+	<div class="w3-row-padding w2-padding-32 w3-theme-l5" id="sponsor">
+		<h2>Sponsors</h2>
+		<p />
+		These are the groups that make it possible for us to become the next
+		engineers to impact your world!
+		<p />
+		<div class="w3-row">
+			<div class="w3-col m10">
+				<div class="w3-quarter w3-padding-16">
+					<a
+						href="http://www.greatermilwaukeefoundation.org/grants/grant-seekers/other-grant-opportunities/bucyrus/"
+						target="_blank">Bucyrus Foundation</a>
+				</div>
+				<div class="w3-quarter w3-padding-16">
+					<a href="http://harley-davidson.com" target="_blank"><img
+						src="/img/hdLogo.png" class="w3-quarter-image" alt="" /></a>
+				</div>
+				<div class="w3-quarter w3-padding-16">
+					<a href="https://www.rockwellautomation.com/" target="_blank"><img
+						src='/img/Rockwell.png' class="w3-quarter-image" alt="" /></a>
+				</div>
+				<div class="w3-quarter w3-padding-16">
+					<a href="http://www.bliffertlumber.com/" target="_blank"><img
+						src='/img/bliffert-lumber-logo.png' class="w3-quarter-image"
+						alt="" /></a>
+				</div>
+			</div>
+		</div>
+		<div class="w3-row">
+			<div class="w3-col m10">
+				<div class="w3-quarter w3-padding-16">
+					<a href="#sponsor">George Mosher</a>
+				</div>
+				<div class="w3-quarter w3-padding-16">
+					<a href="http://www5.milwaukee.k12.wi.us/school/riverside/"
+						target="_blank"><img src="img/RoboTigersLogo-small.png"
+						class="w3-quarter-image" alt="" /></a>
+				</div>
+				<div class="w3-quarter w3-padding-16">
+					<a href="http://www3.gehealthcare.com/en/global_gateway"
+						target="_blank"><img src='/img/ge.png'
+						class="w3-quarter-image" alt="" /></a>
+				</div>
+				<div class="w3-quarter w3-padding-16">
+					<a href="https://www.genmet.com/" target="_blank"><img
+						src='/img/genmet.png' class="w3-quarter-image" alt="" /></a>
+				</div>
+			</div>
+		</div>
+	</div>
 
 <!-- Contact Container -->
-<div class="w3-container w3-padding-64 w3-theme-l2" id="contact">
-  <div class="w3-row">
-    <div class="w3-col m5">
-    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
-      <h3>Address</h3>
-    </div>
-    <!-- 
-    <div class="w3-col m7">
-      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
-      <div class="w3-group">      
-        <label class="w3-label">Name</label>
-        <input class="w3-input" type="text" name="Name" required>
-      </div>
-      <div class="w3-group">      
-        <label class="w3-label">Email</label>
-        <input class="w3-input" type="text" name="Email" required>
-      </div>
-      <div class="w3-group">      
-        <label class="w3-label">Message</label>
-        <input class="w3-input" type="text" name="Message" required>
-      </div>  
-      <input class="w3-check" type="checkbox" checked name="Like">
-      <label class="w3-validate">I Like it!</label>
-      <button type="submit" class="w3-button w3-right w3-theme">Send</button>
-      </form>
-    </div>
-     -->
-  </div>
-</div>
+	<div class="w3-container w3-padding-64 w3-theme-l2" id="contact">
+Contact Us
+	</div>
 
 
-<!-- Footer -->
-<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
-  <h4>Follow Us</h4>
-  <a class="w3-btn-floating w3-teal" href="https://www.facebook.com/Robotigers/" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-  <a class="w3-btn-floating w3-teal" href="http://www.twitter.com/Team2830" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-  <a class="w3-btn-floating w3-teal" href="javascript:void(0)" title="Google +"><i class="fa fa-instagram" target="_blank"></i></a>
- 
-  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
-    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
-    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
-    <i class="fa fa-chevron-circle-up"></i></span></a>
-  </div>
-</footer>
+	<!-- Footer -->
+	<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+		<div>Follow Us</div>
+		<a class="w3-btn-floating w3-teal"
+			href="https://www.facebook.com/Robotigers/" title="Facebook"
+			target="_blank"><i class="fa fa-facebook"></i></a> <a
+			class="w3-btn-floating w3-teal"
+			href="http://www.twitter.com/Team2830" title="Twitter"
+			target="_blank"><i class="fa fa-twitter"></i></a> <a
+			class="w3-btn-floating w3-teal" href="javascript:void(0)"
+			title="instagram"><i class="fa fa-instagram" target="_blank"></i></a>
 
-<script>
-// Script for side navigation
-function w3_open() {
-    var x = document.getElementById("mySidenav");
-    x.style.width = "300px";
-    x.style.textAlign = "center";
-    x.style.fontSize = "40px";
-    x.style.paddingTop = "10%";
-    x.style.display = "block";
-}
+	</footer>
 
-// Close side navigation
-function w3_close() {
-    document.getElementById("mySidenav").style.display = "none";
-}
+	<script type="text/javascript">
+		// Script for side navigation
+		function w3_open() {
+			var x = document.getElementById("mySidenav");
+			x.style.width = "300px";
+			x.style.textAlign = "center";
+			x.style.fontSize = "40px";
+			x.style.paddingTop = "10%";
+			x.style.display = "block";
+		}
 
-// Used to toggle the menu on smaller screens when clicking on the menu button
-function openNav() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-    } else { 
-        x.className = x.className.replace(" w3-show", "");
-    }
-}
-</script>
+		// Close side navigation
+		function w3_close() {
+			document.getElementById("mySidenav").style.display = "none";
+		}
+
+		// Used to toggle the menu on smaller screens when clicking on the menu button
+		function openNav() {
+			var x = document.getElementById("navDemo");
+			if (x.className.indexOf("w3-show") == -1) {
+				x.className += " w3-show";
+			} else {
+				x.className = x.className.replace(" w3-show", "");
+			}
+		}
+	</script>
 
 </body>
 </html>
