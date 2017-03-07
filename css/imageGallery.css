@@ -1,5 +1,4 @@
 #container { width: 100%;height: 600px;overflow: hidden;font-family:'Pacifico';}
-h3 { line-height:500px; font-size:36px;}.sections, .section { height: 100%; }
 h4 { line-height:500px; font-size:36px;}.sections, .section { height: 100%; }
 #container, .sections { position: relative; }.section { background-color: #000;background-size: cover;background-position: 50% 50%;text-align: center;color: white;}
 #section0 { background-image: url("https://team2830.github.io/img/SatMorningCrew.jpg"); }
