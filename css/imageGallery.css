@@ -2,9 +2,9 @@
 h4 { line-height:500px; font-size:36px;}.sections, .section { height: 100%; }
 #container, .sections { position: relative; }.section { background-color: #000;background-size: cover;background-position: 50% 50%;text-align: center;color: white;}
 #section0 { background-image: url("https://team2830.github.io/img/2017-RoboTigers.jpg"); }
-#section1 { background-image: url("https://team2830.github.io/img/SatMorningCrew.jpg"); }
-#section2 { background-image: url("https://team2830.github.io/img/CleanWorkbench.jpg"); }
-#section3 { background-image: url("https://team2830.github.io/img/Building.jpg"); }
-#section4 { background-image: url("https://team2830.github.io/img/TuningCode.jpg"); }
-#section5 { background-image: url("https://team2830.github.io/img/practiceWith1732.jpg"); }
-#section6 { background-image: url("https://team2830.github.io/img/Driving.jpg"); }
+#FOCUS-section1 { background-image: url("https://team2830.github.io/img/SatMorningCrew.jpg"); }
+#FOCUS-section2 { background-image: url("https://team2830.github.io/img/CleanWorkbench.jpg"); }
+#FOCUS-section3 { background-image: url("https://team2830.github.io/img/Building.jpg"); }
+#FOCUS-section4 { background-image: url("https://team2830.github.io/img/TuningCode.jpg"); }
+#FOCUS-section5 { background-image: url("https://team2830.github.io/img/practiceWith1732.jpg"); }
+#FOCUS-section6 { background-image: url("https://team2830.github.io/img/Driving.jpg"); }
