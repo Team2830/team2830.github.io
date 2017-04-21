@@ -1,15 +1,59 @@
 <html>
-<head>
+    <style>
+        auto-pos{
+            padding-left: 50px;
+        }
+        body{
+            background-color:lightsalmon;
+            
+        }
+    </style>
+    <head>
     
-</head>
-<body>
-<form id="entry-form" name="entry-form" method="post" action="/DataEntry/insert.php">
-    <div>Team:<input type="text" name="team" id="team"/></div>
-    <div>Match:<input type="text" name="match" id="match"/></div>
-    <div>Attempted Auto Gear:<input type="checkbox" name="auto-attempt-gear" id="auto-attempt-gear"/></div>
-    <div>Placed Auto Gear:<input type="checkbox" name="auto-placed-gear" id="auto-placed-gear"/></div>    
-    <input type="submit" name="Submit" id="Submit"/>
+    </head>
+    <body>
+        <form id="entry-form" name="entry-form" method="post" action="/DataEntry/insert.php">
+            <div>Team:<input type="text" name="team" id="team"/></div>
+            <div>Match:<input type="text" name="match" id="match"/></div>
+            
+                Pickup
+                <div>    Balls:<input type="checkbox" name="ball-pickup" id="ball-pickup"/></div>
+                <div>    Gears:<input type="checkbox" name="gear-pickup" id="gear-pickup"/></div>
+  
+            <b>Autonomous</b>
+                Auto Position
+                <div id="auto-pos">    Left:<input type="radio" name="pos" id="left" value="left"/></div>
+                <div id="auto-pos">    Center:<input type="radio" name="pos" id="center" value="center"/></div>
+                <div id="auto-pos"/>    Right:<input type="radio" name="pos" id="right" value="right"/>
+            <div>Mobility:<input type="checkbox" name=mobility id="mobility"/></div>
+            <div>Attempted Auto Gear:<input type="checkbox" name="auto-attempt-gear" id="auto-attempt-gear"/></div>
+            <div>Placed Auto Gear:<input type="checkbox" name="auto-placed-gear" id="auto-placed-gear"/></div>
+            <div>Auto kPa: <input type="number" name="auto-kPa" id="auto-kPa"/></div>
+            <div>Accuracy (Percent) <input type="number" name="auto-accuracy" id="auto-accuracy"/></div>
     
-</form>
-</body>
+            <br>
+            <b>Teleoperated</b>
+            <div>Gears Made: <input type="number" name="gears-made" id="gears-made"/></div>
+            <div>Gears Attempted: <input type="number" name="gears-attempted" id="gears-attempted"/></div>
+            <div>kPa:<input type="number" name="balls-scored" id="balls-scored"/></div>
+            <div>Accuracy (Percent) <input type="number" name="teleop-accuracy" id="teleop-accuracy"/></div>
+            <form>
+                Climb
+                <div>    Attempt:<input type="checkbox" name="climb-attempt" id="climb-attempt"/> </div>
+                <div>    Success:<input type="checkbox" name="climb-success" id="climb-success"/></div>
+            </form>
+    
+            <br>
+            <b>Penalties</b>
+            <div>Foul Points:<input type="number" name="fouls" id="fouls"/></div>
+            <form>
+                <div>Yellow Card:<input type="checkbox" name="yellow-card" id="yellow-card"/></div>
+                <div>Red Card:<input type="checkbox" name="red-card" id="red-card"/></div>
+            </form>
+            <div>Comments:<input type="text" name="comments" id="comments"/></div>
+            <div/>     
+            <input type="submit" name="Submit" id="Submit"/>
+    
+        </form>
+    </body>
 </html>
