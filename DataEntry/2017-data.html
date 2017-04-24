@@ -30,15 +30,15 @@
         <form id="entry-form" name="entry-form" method="post" action="/DataEntry/insert.php">
             <fieldset>
                 <legend><b>Basic Info</b></legend>
-                <div><label class="info" for="team">Team:</label><input type="text" name="team" id="team"/>
-                <label for="name" name="name-label">Name: <input type="text" name="name-text" id="name-text"/></label>
+                <div><label class="info" for="team">Team:</label><input type="text" name="team" id="team" autofocus/>
+                    <label for="name" name="name-label">Scout:</label> <input type="text" name="scout" />
                 </div>
                 <div><label clas="info" for="match">Match:</label><input type="text" name="match" id="match"/></div>
                 <div name="auto-pos">
                     <label class="info" for="pos">Auto Position:</label>
                     <input type="radio" name="pos" id="left" value="left"/>Left
-                    <input type="radio" name="pos" id="center" value="center"/>Center
-                    <input type="radio" name="pos" id="right" value="right"/>Right
+                    <input type="radio" name="pos" id="center" value="center" checked="checked"/>Center
+                    <input type="radio" name="pos" id="right" value="right"  />Right
                 </div>
                 <div>
                 Pickup:
@@ -50,8 +50,7 @@
             <fieldset>
                 <legend><b>Autonomous</b></legend>
                 <div>Mobility:<input type="checkbox" name=mobility id="mobility" value="yes"/></div>
-                <div>Attempted Auto Gear:<input type="checkbox" name="auto-attempt-gear" id="auto-attempt-gear" value="yes"/></div>
-                <div>Placed Auto Gear:<input type="checkbox" name="auto-placed-gear" id="auto-placed-gear" value="yes"/></div>
+                <div>Gear: <input type="radio" name="auto-gear" value="no" checked ="checked" />No <input type="radio" name="auto-gear"  value="attempted"/>Attempted<input type="radio" name="auto-gear"  value="yes"/> Placed</div>
                 <div>Auto kPa: <input type="number" name="auto-kPa" id="auto-kPa"/></div>
                 <div>Accuracy (Percent) <input type="number" name="auto-accuracy" id="auto-accuracy" max="100"></div>
             </fieldset>
@@ -61,14 +60,15 @@
     
             <fieldset>
                 <legend><b>Teleoperated</b></legend>
-                <div>Gears Made: <input type="number" name="gears-made" id="gears-made"/></div>
-                <div>Gears Attempted: <input type="number" name="gears-attempted" id="gears-attempted"/></div>
+                <div>Gears Made: <input type="text" name="gears-made" id="gears-made"/></div>
+                <div>Gears Attempted: <input type="text" name="gears-attempted" id="gears-attempted"/></div>
                 <div>kPa:<input type="number" name="balls-scored" id="balls-scored"/></div>
-                <div>Accuracy (Percent) <input type="number" name="teleop-accuracy" id="teleop-accuracy" max="100"/></div>
+                <div>Accuracy (Percent) <input type="text" name="teleop-accuracy" id="teleop-accuracy" max="100"/></div>
                 <div>
                     Climb:
-                    <input type="radio" name="climb" id="climb-attempt" value="attempt"/>Attempt
-                    <input type="radio" name="climb" id="climb-success" value="success"/>Success
+                    <input type="radio" name="climb" id="climb" value="no attempt" checked="checked"/> Did not Attempt
+                    <input type="radio" name="climb" id="climb" value="attempted"/>Attempted
+                    <input type="radio" name="climb" id="climb" value="success"/>Success
                 </div>
             </fieldset>
             
@@ -77,10 +77,8 @@
             <fieldset>
                 <legend><b>Penalties</b></legend>
                 <div>Foul Points:<input type="number" name="fouls" id="fouls"/></div>
-                <form>
                     <div>Yellow Card:<input type="checkbox" name="yellow-card" id="yellow-card"/></div>
                     <div>Red Card:<input type="checkbox" name="red-card" id="red-card"/></div>
-                </form>
             </fieldset>
             <div><legend><b>Comments</b></legend></div><textarea name="comments" id="comments" cols="75" rows="6"></textarea>
             <input type="submit" name="Submit" id="Submit"/>

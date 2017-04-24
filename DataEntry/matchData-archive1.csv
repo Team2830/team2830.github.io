@@ -1,0 +1,79 @@
+Team,Match,Scout,AutoGear,ballPickup,gearPickup,autoPosition,mobility,autokPa,autoAccuracy,teleGearsMade,teleGearsAttempted,telekPa,teleAccuracy,Climb,fouls,yellowCard,redCard,comments
+1,,,no,no,no,center,no,0,0,0,0,0,0,no attempt,none,none,none,
+27,,,no,no,no,center,no,0,0,4,4,0,10,no attempt,none,none,none,"Ok shooter, good at D Climbs"
+244,,,no,no,no,center,yes,0,0,0,0,0,0,no attempt,none,none,none,Video Sucks
+694,,,yes,no,no,center,yes,0,0,3,3,0,0,no attempt,none,none,none,issues releasing gears
+6763,,,yes,no,no,center,yes,0,0,4,4,0,0,no attempt,none,none,none,"Auto very slow, but made it"
+45,,,yes,no,no,center,yes,0,0,0,0,0,0,no attempt,none,none,none,
+5846,,,no,no,no,center,yes,0,0,3,3,0,0,no attempt,none,none,none,"pushed around really easily 
+good climber"
+156,,,no,no,no,center,yes,0,0,2,3,0,0,no attempt,none,none,none,"lots of problems getting gears from loading station. 
+lost comms"
+107,,,no,no,on,center,yes,1,0,3,4,0,0,no attempt,none,none,none,have to be lined up. Fast climber
+5895,,,no,no,no,center,yes,0,80,2,3,0,0,no attempt,none,none,none,Not good with clutter. fast climber switched to Defense
+75,,,Attempted,no,on,center,yes,0,0,2,3,0,0,no attempt,none,none,none,"Missed Auto. Plays D, but gets pushed easily. bad ground pickup"
+103,,,no,no,no,center,yes,0,0,4,4,0,0,no attempt,none,none,none,McCannum or Swerve fast. fast climb
+5509,,,yes,no,no,center,yes,0,0,3,3,0,0,no attempt,none,none,none,"Plays D. Got center auto, easily pushed. Gets gear knocked out easily. needs their own pilot."
+694,,,no,no,no,center,yes,0,0,4,4,0,0,no attempt,none,none,none,Center Auto. had issues Releasing gears. active gear
+708,,,no,no,on,center,yes,8,100,3,3,0,0,no attempt,none,none,none,okay shooter. pushed easily
+27,,,no,no,no,center,yes,10,0,0,0,8,0,no attempt,none,none,none,
+5846,,,yes,no,no,center,yes,0,0,3,3,0,0,no attempt,none,none,none,kinda playing D. Climbed very fast 
+1262,,,no,no,no,center,yes,0,0,0,0,0,0,no attempt,none,none,on,lost comms
+862,,,yes,no,no,center,yes,0,0,5,5,0,0,no attempt,none,none,none,
+862,,,yes,no,no,center,yes,0,0,0,0,0,0,no attempt,none,none,none,can't take the D
+4226,,,Attempted,no,no,center,yes,0,0,0,0,0,0,no attempt,none,none,none,Played D. Had a gear but didnt score it.
+4085,,,no,no,no,center,yes,0,0,1,1,0,0,no attempt,none,none,none,They cant even move. they were in the same spot for more than 1 minute. Maccannum?
+4085,,,yes,no,no,center,yes,0,0,1,2,0,0,no attempt,none,none,none,They Never give themself enough time to climb. 
+156,,,no,on,no,center,yes,0,0,0,0,0,0,no attempt,none,none,none,lots of problems with loading station. lost Comms.
+107,,,yes,no,no,center,yes,2,5,4,4,0,0,no attempt,none,none,none,fast climber
+5895,,,Attempted,no,no,center,yes,0,0,0,0,0,0,no attempt,none,none,none,can't score with balls in the way
+75,,,no,no,on,center,yes,0,0,0,0,0,0,no attempt,none,none,none,slow climber. gets pushed easy tried to play D
+1285,,,yes,no,no,right,yes,0,0,2,2,0,0,no attempt,none,none,none,plays D. Not bad at it.
+5173,,,Attempted,no,no,center,yes,0,0,1,4,0,0,no attempt,none,none,none,gears get knocked out easily. scored the auto gear in tele
+5564,,,yes,no,no,center,yes,0,0,0,0,0,0,no attempt,none,none,none,"When they get hit, they lose the gear, they need their own human player
+"
+2164,,,yes,no,no,center,yes,0,0,4,5,0,0,no attempt,none,none,none,"when they put the gear on, it is always on the end. climbs questionably."
+708,,,no,on,no,center,yes,5,50,3,0,10,80,no attempt,none,none,none,
+244,,,Attempted,no,no,center,yes,0,0,2,0,0,0,no attempt,none,none,none,
+103,,,yes,no,no,center,yes,0,0,4,4,0,0,no attempt,none,none,none,very fast
+TEST,TEST,,attempted,no,no,center,yes,0,0,Attempted,0,0,0,attempt,none,none,none,attempt test
+TEST,,,yes,no,no,center,no,0,0,0,0,0,0,success,none,none,none,success
+5846,,,no,no,no,center,no,0,0,4,4,0,0,success,none,none,none,super fast climber. easily pushed around.
+6763,,,yes,no,no,center,no,0,0,4,4,0,0,success,none,none,none,
+4226,,,no,no,no,center,yes,0,0,0,0,0,0,success,none,none,none,can play defense. slow climb
+3620,,,yes,no,no,center,yes,0,30,5,5,0,0,no attempt,none,none,none,boiler side auto. has trouble with D good for 5 gears. very fast climb.
+4085,,,yes,no,no,center,yes,0,0,0,1,0,0,attempted,none,none,none,cant defend. only scored 1-2 gears. 
+4085,,,yes,no,no,center,yes,0,0,0,1,0,0,attempted,none,none,none,mccannum / swerve? slow climb takes too much time per attempt
+4085,,,attempted,no,no,left,no,0,0,0,0,0,0,attempted,none,none,none,
+3620,,,yes,no,no,center,yes,5,30,4,4,0,0,attempted,none,none,none,trouble with traffic behind airship
+6657,,,yes,no,no,center,no,0,0,0,0,0,0,no attempt,none,none,none,defense. good.
+4226,,,no,no,no,center,no,0,0,0,0,0,0,success,none,none,none,slow climber
+6763,,,yes,no,no,center,yes,0,0,3,3,0,0,success,none,none,none,
+862,,,yes,no,no,center,no,0,0,4,4,0,0,success,none,none,none,
+862,,,yes,no,no,center,no,0,0,2,2,0,0,no attempt,none,none,none,easily defended. gears easily dropped
+5486,,,yes,no,no,left,yes,0,0,3,3,0,0,success,none,none,none,
+141,,,no,on,no,center,no,9,90,2,2,0,0,no attempt,none,none,none,hard to defend cant place gears with clutter.
+156,,,no,no,no,center,yes,0,0,2,0,0,0,no attempt,none,none,none,gear loading station issues
+2960,,,yes,no,no,center,yes,0,0,2,3,0,0,success,none,none,none,
+3618,,,yes,no,no,center,yes,0,0,2,2,0,0,success,none,none,none,got gear knocked out twice
+4085,,,attempted,no,no,center,yes,0,0,1,1,0,0,attempted,none,none,none,mccnnum or h drive bad drivers. gets in the way
+4085,,,yes,no,no,center,yes,0,0,1,2,0,0,attempted,none,none,none,mccannum can't play d
+2614,,,no,no,no,center,yes,0,0,3,4,0,0,success,none,none,none,
+1481,,,yes,no,no,center,no,0,0,2,3,0,0,success,none,on,none,lost comms
+TEST,,Erik,no,no,no,center,no,0,0,0,0,0,0,no attempt,none,none,none,
+333,,Mordechai,attempted,no,no,left,yes,0,0,4,4,0,0,success,none,none,none,pretty fast issue getting gears
+4859,,Mordechai,attempted,no,no,center,no,0,0,2,2,0,0,success,none,none,none,wobbly defended easily lost comms
+250,,Mordechai,no,no,no,center,yes,0,0,3,3,0,0,success,none,none,none,slow gear placer (active) meccannum drive
+1806,,Mordechai,yes,no,no,right,yes,4,0,0,0,0,0,success,none,none,none,good defense. gear knocked out on side. struggled loading
+910,,Mordechai,yes,no,no,left,yes,15,0,5,5,0,0,success,none,none,none,only get fuel from hoppers.
+4976,,Mordechai,yes,on,on,left,yes,27,0,2,2,15,0,success,none,none,none,active gear placer. switched to d after 40 secs. always shoots from first hopper
+66,,Mordechai,no,no,on,center,no,0,0,2,2,0,0,attempted,none,none,none,"active gear placer. easily defended. struggled picking up gears bad climbing positioning, all on one side"
+6328,,Mordechai,yes,no,no,center,yes,0,0,3,3,0,0,success,none,none,none,attempted fuel in tele. could be knocked over from behind
+1923,,Mordechai,yes,no,no,left,no,0,0,3,3,0,0,attempted,none,none,none,fast. active gear placer
+238,,Mordechai,no,no,no,center,no,3,0,3,3,0,0,success,none,none,none,active gear placer. pretty fast. defensible. fast climb
+5690,,Mordechai,attempted,no,no,center,yes,0,0,4,4,0,0,attempted,none,none,none,fast rope has to be precise
+85,,Mordechai,no,no,no,center,no,5,0,4,4,3,low,no attempt,none,none,none,"hit from side hard enough can knock out gear, good with clutter"
+5436,,Mordechai,yes,on,no,right,yes,0,0,4,4,4,0,success,none,none,none,forced tech foul :) efficient gear runner (no defense)
+2181,,Mordechai,attempted,no,no,center,yes,0,0,3,3,0,0,success,none,none,none,easily pushed and defended. active gear placer. climb SUPER slow
+254,,Mordechai,yes,on,on,left,no,38,0,2,2,18,0,success,none,none,none,"ok gear placer, good shooter"
+5406,,Mordechai,no,no,on,center,no,0,0,0,0,0,0,no attempt,none,none,none,easily pushed out of shooting position. gear pickup unreliable.

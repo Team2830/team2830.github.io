@@ -1,3 +1,1 @@
-1,1,no,no,no,no,on,no,0,0,0,0,44,0,no,no,none,none,none
-33,22,no,no,no,no,left,on,0,0,0,0,0,0,no,no,none,none,none,
-33,22,no,no,no,no,left,on,0,0,0,0,0,0,no,no,none,none,none,
+Team,Match,Scout,AutoGear,ballPickup,gearPickup,autoPosition,mobility,autokPa,autoAccuracy,teleGearsMade,teleGearsAttempted,telekPa,teleAccuracy,Climb,fouls,yellowCard,redCard,comments
