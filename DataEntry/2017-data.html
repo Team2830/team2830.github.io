@@ -31,10 +31,10 @@
             <fieldset>
                 <legend><b>Basic Info</b></legend>
                 <div><label class="info" for="team">Team:</label><input type="text" name="team" id="team" autofocus/>
-                    <label for="name" name="name-label">Scout:</label> <input type="text" name="scout" />
+                    <label clas="info" for="match">Match:</label><input type="text" name="match" id="match"/>
+                <label for="name" name="name-label">Scout:</label> <input type="text" name="scout" />            <input type="submit" name="Submit" id="Submit"/>
                 </div>
-                <div><label clas="info" for="match">Match:</label><input type="text" name="match" id="match"/></div>
-                <div name="auto-pos">
+                <div>
                     <label class="info" for="pos">Auto Position:</label>
                     <input type="radio" name="pos" id="left" value="left"/>Left
                     <input type="radio" name="pos" id="center" value="center" checked="checked"/>Center
@@ -49,7 +49,7 @@
   
             <fieldset>
                 <legend><b>Autonomous</b></legend>
-                <div>Mobility:<input type="checkbox" name=mobility id="mobility" value="yes"/></div>
+                <div>Mobility:<input type="checkbox" name=mobility id="mobility" value="yes" checked="checked"/></div>
                 <div>Gear: <input type="radio" name="auto-gear" value="no" checked ="checked" />No <input type="radio" name="auto-gear"  value="attempted"/>Attempted<input type="radio" name="auto-gear"  value="yes"/> Placed</div>
                 <div>Auto kPa: <input type="number" name="auto-kPa" id="auto-kPa"/></div>
                 <div>Accuracy (Percent) <input type="number" name="auto-accuracy" id="auto-accuracy" max="100"></div>
@@ -66,9 +66,9 @@
                 <div>Accuracy (Percent) <input type="number" name="teleop-accuracy" id="teleop-accuracy" max="100"/></div>
                 <div>
                     Climb:
-                    <input type="radio" name="climb" id="climb" value="no attempt" checked="checked"/> Did not Attempt
+                    <input type="radio" name="climb" id="climb" value="no attempt"/> Did not Attempt
                     <input type="radio" name="climb" id="climb" value="attempted"/>Attempted
-                    <input type="radio" name="climb" id="climb" value="success"/>Success
+                    <input type="radio" name="climb" id="climb" value="success"  checked="checked"/>Success
                 </div>
             </fieldset>
             
