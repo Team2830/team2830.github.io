@@ -1,0 +1,246 @@
+Team,Match,Scout,AutoGear,ballPickup,gearPickup,autoPosition,mobility,autokPa,autoAccuracy,teleGearsMade,teleGearsAttempted,telekPa,teleAccuracy,Climb,fouls,yellowCard,redCard,comments
+3618,1,John,yes,no,no,center,yes,0,0,2,2,0,0,success,none,none,none,It seems as though they tried fuel before but now resorted to gears and defense.
+340,1,Yellianvette,attempted,no,no,left,yes,0,0,3,4,0,0,success,none,none,none,Pretty slow.
+6763,1,Lalo,no,no,no,right,yes,0,0,3,3,0,0,success,none,none,none,"Defensive, not fast."
+4242,1,Dana,attempted,no,no,center,yes,0,0,4,4,0,0,success,none,none,none,N/A
+3755,1,Yan Nang Soe,attempted,no,no,center,yes,0,0,2,4,0,0,no attempt,none,none,none,It lost connection. It stopped moving after getting second gear.
+1718,1,Gisselle,attempted,no,no,center,yes,0,0,0,0,0,0,success,none,none,none,Need to work on autonomous by getting the gear on the peg.
+27,2,John,no,no,no,center,yes,72,75,3,3,0,0,success,none,none,none,The oldest team in our division. So much of a threat that the other team felt the need to try and attack them.
+694,2,Gisselle,yes,no,no,center,yes,0,0,3,3,0,0,success,none,none,none,N/A
+6328,2,Dana,yes,no,no,center,yes,0,0,4,4,0,0,success,none,none,none,N/A
+201,2,Lalo,yes,no,on,center,yes,0,0,3,4,0,0,success,none,none,none,Slow.
+4226,2,Yellianette,no,no,no,center,yes,0,0,0,0,0,0,success,none,none,none,"Didn't do anything at all (no gear, no attempts)"
+4618,2,Yan Nang Soe,no,no,no,center,no,0,0,0,2,0,0,success,none,none,none,It didn't score anything but climbing.
+6378,4,Dana,attempted,no,no,center,yes,0,0,0,0,0,0,no attempt,none,none,none,It didn't move.
+346,4,Gisselle,attempted,no,no,center,yes,0,0,4,4,0,0,success,none,none,none,Good on gears.
+141,4,John,no,on,no,left,yes,10,75,1,1,0,0,success,none,none,none,Being backed in the corner and playing where defense looks... questionable
+2767,4,Yan Nang Soe,no,on,no,center,yes,10,50,2,3,20,90,success,none,none,none,"It does balls the most and some gears too, plays almost all offense."
+333,4,Yeilianette,no,no,no,center,no,0,0,0,1,0,0,no attempt,none,none,none,It moves fast.
+5173,lalo,4,attempted,no,no,center,yes,0,0,2,2,0,0,success,none,none,none,"Struggled getting rope, not that fast."
+107,5,John,attempted,no,on,center,yes,0,0,2,2,0,0,success,none,none,none,Robot struggles... a lot. the disadvantages of trying to do everything but ended up dropping one.
+5436,5,Gisselle,yes,no,no,center,yes,0,0,4,4,0,0,no attempt,none,none,none,N/A
+178,5,Dana,attempted,no,no,center,yes,0,0,4,4,0,0,success,none,none,none,N/A
+75,5,Yan Nang Soe,attempted,no,on,center,yes,0,0,0,0,0,0,success,none,none,none,It just picked up any gear from the ground and place it on a peg and leave it on while going to get another.
+238,5,Yeilianette,no,no,no,center,yes,5,25,4,5,0,0,success,none,none,none,Not a lot of high goals; shoot from left side
+250,5,Lalo,no,on,no,center,no,0,0,2,2,0,0,success,none,none,none,N/A
+156,6,John,yes,no,no,left,yes,0,0,1,2,0,0,success,none,none,none,They seem more all into defending than delivering gears It's too slow for its purpose.
+1262,6,Job,no,no,on,center,yes,0,0,2,2,0,0,success,none,none,none,They were pretty good but due to its massive size it was an easy bot to block.
+1806,6,Dana,attempted,no,no,center,yes,0,0,3,4,0,0,success,none,none,none,It was kind of blocking other teams.
+1676,6,Yellianette,yes,no,no,center,yes,0,0,3,4,0,0,success,none,none,none,Defensive
+5406,6,Yan Nang Soe,no,no,on,center,yes,0,0,2,4,0,0,success,none,none,none,"Auto: from center, turned and shot a lot. Very accurate(no numbers); Tele: shot a lot very accurate (no numbers); Dropped on gear and picked it up and scored. climbed fast."
+5942,7,Elijah,yes,no,no,center,yes,0,0,2,3,0,0,success,none,none,none,kind of slow; defensive
+862,7,Dana,yes,no,no,center,yes,0,0,2,2,0,0,success,none,none,none,It was moving pretty fast.
+2164,7,John,no,no,no,center,yes,0,0,2,2,0,0,success,none,none,none,"Nothing much to say to be honest, but they did good. "
+5690,7,Gisselle,no,no,no,center,yes,0,0,3,3,0,0,success,none,none,none,Climbs and does gears good.
+4967,8,John,no,on,no,center,yes,10,30,0,0,20,50,success,none,none,none,The first team I've seen here that tries for the 80 bonus for fuel
+4678,7,Yellianette,yes,no,on,center,yes,0,0,4,4,0,0,success,none,none,none,pretty fast; placed a lot of gears
+4859,8,Gisselle,no,no,no,center,no,0,0,3,3,0,0,success,none,none,none,Good on gears.
+103,8,Yellianette,yes,no,no,center,yes,0,0,4,4,0,0,no attempt,none,none,none,climbs really fast; good at getting the rope
+1481,8,Dana,yes,no,no,center,yes,0,0,3,3,0,0,success,none,none,none,N/A
+6548,8,Elijah,no,no,no,center,yes,0,0,1,3,0,0,success,none,none,none,Slow.
+85,8,Lalo,yes,no,no,center,yes,0,0,2,2,0,0,success,none,none,none,"trouble getting gears from loading station; was defending for 15sec., shooting high the last 20sec."
+1923,9,Dana,yes,no,no,center,yes,0,0,3,3,0,0,no attempt,none,none,none,N/A
+254,9,Elijah,yes,no,no,center,yes,0,0,1,2,30,90,success,none,on,none,Gears aren't so good but great shooter
+5895,9,Yellianette,no,no,no,center,no,10,100,4,4,0,0,success,none,none,none,pretty good at the high goal; good at climbing fast
+5509,9,Gisselle,yes,no,no,center,yes,0,0,4,4,0,0,success,none,none,none,Good on gears and climbing.
+1285,9,Job,yes,no,no,center,no,0,0,2,2,0,0,attempted,none,none,none,They kept blocking him from getting gears. It was too small to get through/slow
+2614,9,lalo,no,no,no,center,yes,0,0,3,3,0,0,success,none,none,none,"Was not aiming to the high goal (auto), not fast, slow with gears but good."
+2509,,Yell,no,no,no,center,no,0,0,0,0,0,0,no attempt,none,none,none,
+2509,10,Yellianette,no,no,no,center,yes,0,0,2,2,0,0,attempted,none,none,none,Fast at placing gears; deffensive
+708,10,Lalo,no,no,no,center,no,0,0,3,3,0,0,attempted,none,none,none,"Starts on the near side, was over confident and didn't have enough time to climb. Tried defending"
+5846,10,Job,yes,no,no,center,yes,0,0,4,4,0,0,success,none,none,none,they are pretty quick. They are on spot within robot.
+2062,10,Gisselle,no,no,no,center,yes,0,0,3,3,0,0,attempted,none,none,none,Good at getting gears
+6490,,Donut,yes,no,no,center,yes,0,0,0,0,0,0,success,none,none,none,Turning a little shaky. great gear placer. exceptional speed during autonomous.
+5976,11,Yellianette,no,no,no,center,yes,0,0,3,3,0,0,attempted,none,none,none,fast good at getting and placing gears.
+894,11,Elijah,yes,no,no,center,yes,0,0,0,0,20,90,no attempt,none,none,none,good
+910,11,Gisselle,yes,no,no,center,no,0,0,4,4,0,0,success,none,none,none,N/A
+2960,Lalo,11,no,no,no,center,yes,0,0,2,2,0,0,success,none,none,none,Lost connection for 5 seconds
+4976,11,Donut,yes,no,on,center,yes,0,0,0,0,18,92,no attempt,none,none,none,good for fuels and gears. Great for picking up fallen gears. fast in Autonomous and in teleop.
+346,12,Yellianette,no,no,no,center,yes,4,0,1,1,45,0,success,none,none,none,really good at high goal
+666,12,Gisselle,yes,no,no,center,yes,0,0,3,3,0,0,success,none,none,none,N/A
+5436,12,Dana,attempted,no,no,center,no,0,0,3,3,0,0,no attempt,none,none,none,At the end it was just blocking the other teams
+27,12,Yan Nang Soe,no,on,no,center,yes,5,15,1,1,13,45,success,none,none,none,"Shoots a lot of fuels, misses a lot too."
+1806,12,Donut,yes,no,on,center,yes,0,0,4,4,0,0,success,none,none,none,"Great reverse driving, great gear retrieval. Doesn't do well with against defense. A little short on climbing   "
+5675,12,Lalo,attempted,no,on,center,yes,0,0,2,2,0,0,success,none,none,none,Good defense.
+75,13,Elijah,no,no,on,center,yes,0,0,2,2,0,0,success,none,none,none,"Past, drop a gear on contact."
+4242,13,Dana,yes,no,on,right,yes,0,0,3,3,0,0,success,none,none,none,
+6548,13,Gisselle,yes,no,on,center,no,0,0,4,4,0,0,success,none,none,none,Good on gears.
+5442,13,Yan Nang Soe,no,on,no,left,yes,0,0,0,0,0,0,success,none,none,none,"Its playing defense, not trying to score"
+4759,13,Donut,yes,no,on,right,yes,0,0,3,4,0,0,success,none,none,none,Fast and sleek. Good for gears 
+201,13,Lalo,attempted,no,on,center,yes,0,0,2,2,0,0,attempted,none,none,none,Slow.
+85,14,Gisselle,yes,no,on,left,yes,0,0,5,5,0,0,success,none,none,none,"Goes fast and can get lots of gears."
+85,14,Gisselle,yes,no,on,left,yes,0,0,5,5,0,0,success,none,none,none,"Goes fast and can get lots of gears."
+5690,14,Dana,yes,no,on,center,yes,0,0,4,4,0,0,success,none,none,none,""
+333,14,Elijah,attempted,no,on,right,yes,0,0,4,5,0,0,success,none,none,none,""
+694,14,Lalo,attempted,no,no,center,yes,0,0,1,1,0,0,success,none,none,none,"Defense against his own teammate. Okay driver. lacking. "
+178,14,Yan Nang Soe,attempted,no,no,right,yes,0,0,1,1,0,0,success,none,none,none,"While putting the gears on the peg it kept missing the peg a lot."
+4967,14,Donut,attempted,on,on,left,yes,29,69,2,2,19,62,attempted,none,none,none,"Great for fuse and possibly gears too. Start of speed is great."
+708,16,Elijah,no,on,no,center,yes,11,47,0,0,28,52,success,none,none,none,"Scores a lot of balls."
+6378,16,Gisselle,yes,no,on,center,yes,0,0,3,3,0,0,success,none,none,none,""
+1718,20,Erik,no,no,on,center,no,0,0,0,0,0,0,success,none,none,none,"stuggles a little at the loading station. pickup from floor. "
+2509,20,Yan Nang Soe,attempted,no,no,center,no,0,0,2,2,2,5,success,none,none,none,"plays defense. the balls tehy had in the roboti got 2 in. during tele"
+3620,20,Dana,yes,no,no,center,no,0,0,4,4,0,0,success,none,none,none,"pretty good robot."
+4618,21,Elijah,no,no,no,center,yes,0,0,2,3,0,0,success,none,none,none,"good defense"
+5675,21,Dana,no,no,no,center,yes,0,0,5,5,0,0,success,none,none,none,"a really good robot."
+5976,21,Levas,yes,no,no,center,yes,0,0,3,3,0,0,success,none,none,none,"bad aligning"
+1306,21,Yan Nang Soe,no,no,on,center,yes,5,0,4,4,2,0,success,none,none,none,"good advantage on offense because it can pick up gears from the ground. and scores a lot."
+6651,22,dana,yes,no,no,center,yes,0,0,3,4,0,0,success,none,none,none,"moving slow"
+6490,22,Yan Nang Soe,yes,no,no,center,yes,0,0,4,4,0,0,success,none,none,none,"no d. all offense"
+6328,22,Levas,no,no,no,center,yes,0,0,4,4,0,0,no attempt,none,none,none,"ok speed went for gear w 17 sec left hang in 10 sec"
+2767,,Engrith,yes,no,no,center,yes,0,0,5,5,0,90,success,none,none,none,"excellent driving. moved without problems"
+3618,22,Elijah,yes,no,no,center,yes,0,0,3,4,0,0,success,none,none,none,""
+6328,22,John,attempted,no,no,center,yes,0,0,1,1,0,0,no attempt,none,none,none,"it likes to take breaks? it didnt move in the second half"
+5406,23,Dana,no,on,on,center,yes,0,0,1,1,0,0,success,none,none,none,""
+2181,23,Levas,no,no,no,left,yes,0,0,4,4,0,0,no attempt,none,on,none,"small robot
+hung with 3 sec left
+slow hanger
+yellow card for touching the rope"
+45,23,Gisselle,no,no,no,center,yes,0,0,4,4,0,0,attempted,none,none,none,"has good speed. great on gears."
+333,23,Yan Nang Soe,yes,no,no,center,no,0,0,4,6,0,0,success,none,none,none,"misses somtimes on the peg"
+238,23,Elijah,no,no,no,center,no,0,75,2,3,0,0,success,none,none,none,""
+2164,23,John,attempted,no,no,center,no,0,0,2,3,0,0,success,none,none,none,"good performance"
+340,24,Levas,yes,no,on,center,yes,0,0,4,6,0,0,success,none,none,none,"was defended. picked up dropped gears from missed pegs"
+1806,24,Yan Nang Soe,attempted,no,no,center,yes,0,50,1,1,0,0,success,none,none,none,"defending really good. "
+862,24,John,yes,no,no,center,yes,0,0,2,2,0,0,no attempt,none,none,none,"sturdy and dilligent. ideal for a backup gear guy / defender"
+2614,24,Elijah,attempted,no,no,center,yes,0,0,1,3,0,0,success,none,none,none,"dropped 2 gears"
+103,24,Dana,yes,no,no,center,yes,3,0,3,0,0,0,attempted,none,none,none,""
+5442,24,Engrith,yes,no,no,center,yes,0,0,4,4,0,0,success,none,none,none,"Think it can pickup fuel, but never showed that. played defense."
+6378,25,Engrith,yes,no,no,center,yes,0,0,4,4,0,0,success,none,none,none,"N/A"
+4226,25,Yellianette,no,no,no,center,yes,0,0,3,3,0,0,success,none,none,none,"Fast; pretty good at placing gears and defending"
+4122,25,Gisselle,yes,no,no,center,yes,0,0,5,5,0,0,success,none,none,none,"Has really good speed when getting gears and does good climbing."
+178,25,Dana,yes,no,no,center,yes,0,0,0,4,0,0,success,none,none,none,"It was dropping all the gears."
+6763,25,John,yes,no,no,center,yes,0,0,2,2,0,0,success,none,none,none,"And the rookie of the year award goes to..."
+1481,16,Dana,yes,no,no,left,yes,0,0,3,3,0,0,success,none,none,none,"N/A"
+910,19,Yellianette,attempted,no,no,center,yes,7,0,3,3,0,0,success,none,none,none,"Good at getting and placing gears. "
+4859,19,Elijah,yes,no,no,center,yes,0,0,0,0,0,0,success,none,none,none,"N/A"
+2062,19,Gisselle,attempted,no,no,center,yes,0,0,4,4,0,0,success,none,none,none,"Good on gears; fast on climbing"
+1923,19,Dana,attempted,no,no,center,yes,0,0,2,2,0,0,success,none,none,none,"It took too long to grab the gears."
+141,19,Donut,yes,no,no,center,yes,0,0,3,3,0,0,attempted,none,none,none,"No comment."
+5976,29,Jacqueline,yes,no,no,center,yes,0,0,4,4,0,0,success,none,none,none,"good at getting gears; good at climbing fast"
+254,29,Dana,yes,no,no,center,yes,30,95,2,2,40,90,success,none,none,none,"It did really good in auto. VERY well rounded"
+250,28,Yellianette,no,on,no,center,yes,0,0,3,4,0,0,attempted,none,none,none,"Lacking; good hanging"
+5675,28,Lalo,yes,no,no,center,yes,0,0,3,3,0,0,success,none,on,none,"was struggling with getting gear on peg; slow driving."
+3755,18,Dana,yes,no,no,right,yes,0,0,2,3,0,0,success,none,none,none,"It wasn't that good."
+5509,18,Donut,attempted,no,no,center,yes,0,0,3,0,0,0,success,none,none,none,"Slider, big and mean. perfect sync with pegs."
+2181,18,Lalo,no,no,no,left,yes,0,0,3,3,0,0,success,none,none,none,"Far side; slow"
+244,31,Dana,yes,no,no,center,yes,0,0,3,4,0,0,success,none,none,none,"N/A"
+4678,31,John,yes,no,no,left,yes,0,0,2,2,0,0,success,none,none,on,"Penalty (tech foul)"
+3620,32,John,yes,no,on,left,yes,0,0,3,3,0,0,no attempt,none,none,none,"Being lightning McQueen out here. But sadly that barely helped them and wasn't enough"
+5406,32,Donut,no,no,no,center,yes,25,74,3,3,16,69,success,none,none,none,"Big and can push through defense very fast"
+4085,33,Dana,no,no,no,center,yes,5,15,3,3,0,0,success,none,none,none,"N/A"
+2960,33,Yellianette,no,on,no,center,no,0,0,2,2,4,35,success,none,none,none,"Middle; slow; gear, balls; bad high goals."
+1676,33,Job,yes,no,no,center,yes,0,0,4,4,0,0,success,none,none,none,"They did what they had to. They kept going for gears until the end. "
+45,34,Eduardo,attempted,no,on,left,yes,0,0,4,5,0,0,success,none,none,none,"Went for gears not for balls."
+3618,34,Erik,yes,no,on,center,yes,0,0,6,6,0,0,success,none,none,none,"Got a lot of gears around the airship. Floor pickup. Poached from opposite loading."
+2509,34,Dana,yes,no,on,right,yes,0,0,3,3,0,0,success,none,none,none,"Good robot."
+4122,35,Yeilianette,no,on,on,right,yes,26,69,3,3,0,0,success,none,none,none,"High goal. Gears and is fast."
+4122,35,G. Acaba,attempted,no,on,left,yes,0,0,4,4,0,0,attempted,none,none,none,"A little slow.
+It climb but the rope broke."
+4122,35,Ransom,attempted,no,on,left,yes,0,0,5,5,0,0,success,none,none,none,"Overall descent gear bot, not super slow, and drive seemed to understand what they were doing.
+*truly scored 5 gears(not 4 Acaba).
+"
+346,36,Elijah,attempted,no,on,center,yes,0,0,3,4,0,0,success,none,none,none,"Slow but good."
+2614,36,G. Acaba,yes,no,on,center,yes,0,0,3,3,0,0,success,none,none,none,"In the middle of the match they started to play defense."
+346,36,Ransom,no,no,no,left,yes,0,0,0,0,40,12,success,none,none,none,"Has trouble with aiming and lining up to shoot. Left side shooter auto failed.
+(yet again Ransom is right).
+*Left side"
+6631,36,AP John,no,no,on,right,yes,0,0,3,3,0,0,success,none,none,none,"They did fine for routers despite their loss.  "
+6328,38,Ms.Acaba,attempted,no,on,left,yes,0,0,5,5,0,0,success,none,none,none,"*picks up fuel from the ground."
+333,38,Elijah,yes,no,on,right,yes,0,0,3,3,0,0,success,none,none,none,"Sticks to one thing."
+103,38,A. Acaba,no,no,on,right,yes,20,80,4,4,0,0,success,none,none,none,""
+156,38,Dana,yes,no,on,left,yes,0,0,3,3,0,0,success,none,none,none,"Just gears. Good with gears but slow"
+201,38,Jacqueline,no,no,on,right,yes,0,0,3,3,0,0,success,none,none,none,"Has troubles getting gears, has trouble lining it self to get the gears."
+254,40,Dana,no,on,on,right,yes,16,15,3,3,23,56,success,none,none,none,"Its a really good robot.
+*Gets gears from the ground"
+3755,40,Jacqueline,yes,no,on,center,yes,0,0,4,4,0,0,attempted,none,none,none,"Not great at defense and fighting back. Fast at getting gears."
+5406,40,Yan Nang Soe,attempted,no,on,left,yes,0,0,5,8,0,0,success,none,none,none,"It was scoring, not defending. It was scoring with gears.
+*picks up both gears and fuel from the floor."
+2509,41,Yan Nang Soe,yes,no,on,right,yes,18,45,3,3,0,0,success,none,none,none,"They were playing defensively against this robot, so it couldn't do much.
+*picks up fuel from the ground. "
+6548,41,Donut,no,no,on,left,yes,0,0,4,4,0,0,success,none,none,none,"Pushes the gear all the way back on the peg. "
+694,41,A. Acaba,yes,no,on,right,yes,0,0,4,4,0,0,success,none,none,none,"Auto right peg. Stop working for 5 seconds in the middle of the field.
+*picks up fuel from the floor."
+4085,41,Gisselle,yes,no,on,left,yes,0,0,3,3,0,0,success,none,none,none,""
+1806,41,Jacqueline,no,no,on,right,yes,7,20,1,1,0,0,success,none,none,none,"Not good at defense."
+894,41,Dana,attempted,no,on,center,yes,0,0,3,3,0,0,success,none,none,none,""
+6490,42,Yan Nang Soe,attempted,no,on,center,yes,0,0,2,3,0,0,success,none,none,none,"It dropped a gear, lost connection for a while after auto, and they played defense on the bot, so it couldn't score much."
+85,42,Jacqueline,yes,no,on,center,yes,0,0,4,4,0,0,success,none,none,none,"Good at getting gears, but not that fast because they get pushed.
+*picks up gear from the floor."
+5895,42,G. Acaba,yes,no,on,center,yes,0,0,3,3,0,0,success,none,none,none,"Dropped a gear. 
+Were kinda slow."
+,42,Dana,attempted,no,on,right,yes,0,0,3,3,0,0,success,none,none,none,""
+107,42,A. Acaba,attempted,no,on,left,yes,10,70,1,2,0,0,attempted,none,none,none,"Its being defended very hard.
+They don't know what to do when someone is defending.
+* Picks up both gears and fuel from the ground."
+3620,42,Donut,yes,no,on,left,yes,0,0,4,4,0,0,success,none,none,none,""
+894,16,Yan,attempted,no,no,center,yes,0,0,3,3,0,0,success,none,none,none,"got marked. couldnt do anything."
+1285,16,Donut,attempted,no,no,left,no,0,0,0,0,20,60,success,none,none,none,"Better for fuel. not great with gears. pretty fast."
+66,17,Gisselle,no,no,no,center,yes,0,0,4,4,0,0,no attempt,none,none,none,"good on gears"
+4122,17,Yan,attempted,no,no,center,yes,0,0,3,3,0,0,success,none,none,none,"played a little defense."
+2614,17,Elijah,no,no,no,center,yes,0,0,1,2,0,0,attempted,none,none,none,""
+5173,17,Donut,yes,no,no,center,yes,0,0,2,2,0,0,no attempt,none,none,none,"good woith gears. and with defense. drives through robots."
+1718,27,Yeilianette,attempted,no,on,center,yes,0,0,3,4,0,0,success,none,none,none,"moves fast. good getting the rope to climb"
+1923,27,Gissellle,no,no,no,center,yes,0,0,3,3,0,0,no attempt,none,none,none,"good on gears"
+85,27,Dana,no,on,no,center,no,1,0,2,2,10,0,no attempt,none,none,none,""
+201,27,Elijah,yes,no,no,center,yes,0,0,2,3,0,0,no attempt,none,none,none,"fast"
+6651,27,John,no,no,no,center,no,0,0,2,2,0,0,no attempt,none,none,none,"lightweight it seems."
+66,27,Lalo,no,no,no,center,yes,0,0,3,3,0,0,success,none,none,none,"good with gears. tehy make 3 pegs on each match. and the defend"
+4678,17,Dana,yes,no,no,left,yes,0,0,3,3,0,0,attempted,none,none,none,"good in auto"
+107,17,Lalo,yes,no,no,center,yes,0,0,1,1,0,0,no attempt,none,none,none,"def"
+4085,18,Elijah,no,no,no,center,no,0,0,2,2,0,0,success,none,none,none,"shot a few fuel in auto. good robot."
+1262,28,Jackie,no,no,no,center,yes,0,0,3,3,0,0,success,none,none,none,"slow getting gears. not that bad"
+708,28,Gisselle,no,no,no,center,yes,0,0,3,3,0,0,success,none,none,none,"was doing good."
+2767,28,Dana,no,no,no,center,yes,0,0,1,0,0,0,success,none,none,none,"shot fuel, but didnt record numbers"
+5690,28,John,no,no,no,center,yes,0,0,2,2,0,0,no attempt,none,none,none,""
+103 ,18,Gisselle,attempted,no,no,center,yes,0,0,0,0,0,0,success,none,none,none,""
+5336,29,Yeilianette,no,no,no,right,no,15,0,3,3,30,0,no attempt,none,none,none,""
+1481,29,Lalo,attempted,no,no,left,yes,0,0,3,3,0,0,success,none,none,none,"slow climber. good driver"
+2164,29,Gisselle,yes,no,no,center,yes,0,0,4,4,0,0,success,none,none,none,""
+4242,,John,yes,no,on,center,yes,0,0,3,3,0,0,no attempt,none,none,none,"Gears r us. now they are great at them. are light waight"
+238,30,Dana,yes,no,no,center,yes,0,0,4,4,0,0,success,none,none,none,""
+386,30,John,no,no,no,center,yes,10,90,0,0,25,75,success,none,none,none,"fuel non stop. Excellent."
+4956,30,Yeilianette,no,no,no,center,yes,7,0,0,0,10,0,success,none,none,none,""
+4976,30,Levas,yes,no,no,right,yes,0,0,0,0,40,66,success,none,none,none,"hit balls. played d with 40sec to go. shot with 30sec. got 40"
+4859,30,Donut,yes,no,no,right,no,0,0,2,3,0,0,no attempt,none,none,none,"EEEE ok. not good not bad"
+910,31,Job,yes,no,no,center,yes,0,0,4,4,0,0,success,none,none,none,""
+1306,31,Donut,no,no,no,center,yes,6,25,2,2,10,5,success,none,none,none,"big and fast. does well against D"
+6548,31,Yeilianette,no,no,no,center,yes,0,0,4,4,0,0,success,none,none,none,"defensive"
+894,,Lalo,no,no,no,center,yes,0,0,4,4,0,0,success,none,none,none,"good hanging.  Erik's old!"
+4618,32,job,no,no,no,right,yes,0,0,3,3,0,0,success,none,none,none,"slow.  "
+5173,32,dana,attempted,no,no,center,yes,0,0,3,3,0,0,success,none,none,none,""
+5846,33,donut,no,no,no,right,yes,0,0,3,3,0,0,success,none,none,none,"Fast on gear retrieval."
+6328,33,ap john,no,no,no,center,yes,0,0,3,3,0,0,success,none,none,none,""
+5895,33,erik,no,no,no,center,yes,14,70,2,3,0,0,success,none,none,none,"slow at placing gears.  fast climber"
+3755,34,Job,yes,no,no,left,yes,0,0,3,3,0,0,success,none,none,none,"slow at getting gears!"
+1285,34,john,no,no,no,center,yes,0,0,2,2,0,0,success,none,none,none,"reckless"
+4859,35,Jackie,yes,no,no,center,yes,0,0,3,3,0,0,success,none,none,none,"slow.  had trouble with putting the gear into the peg"
+2181,35,the general,attempted,no,no,left,yes,0,0,4,4,0,0,attempted,none,none,none,"slow active place. afraid of d"
+27,35,elijah,attempted,no,no,center,yes,0,0,4,4,0,0,success,none,none,none,""
+1262,35,john,no,no,no,right,yes,0,0,3,3,0,0,success,none,none,none,""
+37,5618,john,attempted,no,no,center,yes,0,0,2,2,0,0,no attempt,none,none,none,"they fueled up ready to fire but did not fire."
+141,37,jackie,yes,no,no,right,yes,0,0,3,3,0,0,success,none,none,none,"good at pushing his rivals to pass through"
+6763,37,elijah,no,no,no,center,yes,0,0,2,3,0,0,success,none,none,none,""
+238,,acaba,no,no,no,center,yes,10,70,0,0,20,40,success,none,none,none,"focus on gears"
+1306,,john,no,no,no,center,yes,1,20,2,2,9,10,no attempt,none,none,none,"what happened here?  there not usually like this!"
+2164,46,Gisselle,no,no,no,center,yes,0,0,4,4,0,0,success,none,none,none,"Goof on climbing- fast. Good on gears"
+5846,46,Donut,yes,no,no,center,yes,0,0,0,0,0,0,success,none,none,none,"good barreling through D. Smallness is key."
+346,46,Yan,attempted,no,no,center,yes,0,0,1,1,0,0,success,none,none,none,"Shooter. "Accuracy 65%" no totals reported."
+5509,43,Jacqueline,no,no,no,left,yes,0,0,4,4,0,0,success,none,none,none,"good at getting gears. fearless good at fighting off the D"
+5976,43,?,yes,no,no,center,yes,0,0,4,4,0,0,success,none,none,none,""
+708,43,Donut,no,no,no,center,yes,0,0,3,3,4,72,success,none,none,none,"Good High goal accuracy. fast and sturdy. does well against D"
+3618,42,Dana,attempted,no,no,center,yes,0,0,3,3,0,0,success,none,none,none,""
+2678,43,Gisselle,yes,no,no,center,yes,0,0,2,2,0,0,success,none,none,none,"Did bad on gears."
+1676,43,Yan,attempted,no,no,center,yes,1,0,5,5,0,50,success,none,none,none,"Not so good at shooting high. it has no accuracy, but it can deliver gears fast without defense."
+45,44,Yan,attempted,no,no,center,yes,0,0,0,0,0,0,success,none,none,none,"it played Defense the whole time. but not good defense."
+2767,44,Donut,yes,no,no,center,yes,0,0,4,4,13,78,attempted,none,none,none,"Side driver. great high goal accuracy"
+4967,,Acaba,no,on,no,left,yes,28,80,2,2,50,50,success,none,none,none,"They need work on positioning when shooting."
+1923,44,Gisselle,yes,no,no,center,yes,0,0,5,6,0,0,success,none,none,none,"Fast. good driver. good on gears, only 1 fell."
+5442,44,Jacqueline,attempted,no,no,left,yes,0,0,4,4,0,0,attempted,none,none,none,"had trouble getting gears and fast at getting them"
+5436,44,Dana,yes,no,no,center,yes,0,0,3,3,0,0,success,none,none,none,""
+1718,45,Jacqueline,yes,no,on,center,yes,0,0,4,4,0,0,success,none,none,none,"good at picking up gears from the ground. fast at getting them"
+4976,45,Yan,yes,no,no,right,yes,0,95,3,3,0,90,success,none,none,none,"Good accuracy at fuel (didnt list amount made) and can score gears fast."
+4362,45,Acaba,no,on,no,right,yes,10,80,3,3,0,0,success,none,none,none,"They climb very fast around 6 sec.That includes grabbing the rope."
+862,45,Donut,yes,no,no,left,yes,0,0,5,5,0,0,success,none,none,none,"pushes the gear to the back of the peg to ensure it doesnt fall off. fast and small"
+178,45,Gisselle,no,no,no,right,yes,0,0,4,4,0,0,success,none,none,none,""
+5675,45,Dana,yes,no,no,center,yes,0,0,3,3,0,0,success,none,none,none,"moved slow"
+340,16,Lalo,yes,no,on,center,yes,0,0,3,3,0,0,success,none,none,none,"fast with gears. def. fast climber"

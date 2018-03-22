@@ -1,0 +1,1 @@
+Team,Match,Scout,AutoGear,ballPickup,gearPickup,autoPosition,mobility,autokPa,autoAccuracy,teleGearsMade,teleGearsAttempted,telekPa,teleAccuracy,Climb,fouls,yellowCard,redCard,comments

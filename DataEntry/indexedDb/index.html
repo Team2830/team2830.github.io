@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+        <style>
+        legend{
+            font-size: 14pt;
+        }
+        div{
+            padding-top: 0px;
+            padding-bottom: 10px;
+        }
+        br{
+            padding-bottom:10px;
+        }
+        auto-pos{
+            padding-left: 50px;
+        }
+        input[name="climb"]{
+            padding-left:20px;
+        }
+        label[name="pickup"]{
+            padding-left: 15px;
+        }
+        label[name="name-label"]{
+            padding-left: 100px;
+        }
+    </style>
+  <title>Scout List App</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="page-wrapper">
+    <!-- Form for new Scout Items -->
+    <form id="new-scout-form" method="POST" action="#">
+ <!--        <fieldset>
+                <legend><b>Basic Info</b></legend>
+                <div><label class="info" for="team">Team:</label><input type="text" name="team" id="team" autofocus/>
+                    <label clas="info" for="match">Match:</label><input type="text" name="match" id="match"/>
+                <label for="name" name="name-label">Scout:</label> <input type="text" name="scout" />            <input type="submit" name="Submit" id="Submit"/>
+                </div>
+                <div>
+                    <label class="info" for="pos">Auto Position:</label>
+                    <input type="radio" name="pos" id="left" value="left"/>Left
+                    <input type="radio" name="pos" id="center" value="center" checked="checked"/>Center
+                    <input type="radio" name="pos" id="right" value="right"  />Right
+                </div>
+                <div>
+                Pickup:
+                <label class="info" for="ball-pickup" name="pickup">Balls</label><input type="checkbox" name="ball-pickup" id="ball-pickup"/>
+                <label class="info" for="gear-pickup" name="pickup">Gears</label><input type="checkbox" name="gear-pickup" id="gear-pickup"/></div>
+            </fieldset>
+                
+  
+            <fieldset>
+                <legend><b>Autonomous</b></legend>
+                <div>Mobility:<input type="checkbox" name=mobility id="mobility" value="yes" checked="checked"/></div>
+                <div>Gear: <input type="radio" name="auto-gear" value="no" checked ="checked" />No <input type="radio" name="auto-gear"  value="attempted"/>Attempted<input type="radio" name="auto-gear"  value="yes"/> Placed</div>
+                <div>Auto kPa: <input type="number" name="auto-kPa" id="auto-kPa"/></div>
+                <div>Accuracy (Percent) <input type="number" name="auto-accuracy" id="auto-accuracy" max="100"></div>
+            </fieldset>
+
+
+            
+    
+            <fieldset>
+                <legend><b>Teleoperated</b></legend>
+                <div>Gears Made: <input type="number" name="gears-made" id="gears-made"/></div>
+                <div>Gears Attempted: <input type="number" name="gears-attempted" id="gears-attempted"/></div>
+                <div>kPa:<input type="number" name="balls-scored" id="balls-scored"/></div>
+                <div>Accuracy (Percent) <input type="number" name="teleop-accuracy" id="teleop-accuracy" max="100"/></div>
+                <div>
+                    Climb:
+                    <input type="radio" name="climb" id="climb" value="no attempt"/> Did not Attempt
+                    <input type="radio" name="climb" id="climb" value="attempted"/>Attempted
+                    <input type="radio" name="climb" id="climb" value="success"  checked="checked"/>Success
+                </div>
+            </fieldset>
+            
+    
+            <br>
+            <fieldset>
+                <legend><b>Penalties</b></legend>
+                <div>Foul Points:<input type="number" name="fouls" id="fouls"/></div>
+                    <div>Yellow Card:<input type="checkbox" name="yellow-card" id="yellow-card"/></div>
+                    <div>Red Card:<input type="checkbox" name="red-card" id="red-card"/></div>
+            </fieldset> -->
+              <input type="text" name="new-scout" id="new-scout" placeholder="Enter a scout item..." required>
+
+            <div><legend><b>Comments</b></legend></div><textarea name="comments" id="comments" cols="75" rows="6"></textarea>
+<input type="submit" name="Submit" id="Submit"/>
+    </form>
+
+    <!-- Scout Item List -->
+    <ul id="scout-items"></ul>
+  </div>
+
+  <script src="db.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
