@@ -1,6 +1,6 @@
 var defaults = [];
 defaults["teamkey"] = "frc2830";
-defaults["eventkey"] = "2019chpmi";
+defaults["eventkey"] = "2019cmpmi";
 defaults["streamurl"] = "[auto]";
 defaults["showsponsers"] = 1;
 defaults["sponserpics"] = [
