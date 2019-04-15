@@ -1,0 +1,110 @@
+<!doctype html>
+
+<html lang="en">
+
+    <head>
+        
+        <!-- BootStrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/common.css">
+        
+        <title>BlueDash Pro &rarr; Settings</title>
+        
+        <link rel="icon" type="image/png" href="favicon.png">
+        
+    </head>
+    
+    <body>
+        
+        <div class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/teamlogo.png" height="32" class="d-inline-block align-center" alt="">
+                <img src="img/logo_small.png" width="32" height="32" class="d-inline-block align-center" alt="">
+                BlueDash Pro
+            </a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Dashboard</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="settings.html">Settings</a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="container-fluid px-5 pb-5">
+            
+            <div class="pt-5">
+                <p class="lead">The below settings can be changed:</p>
+                <div id="unlockedSettings">
+                    <table class="table-responsive table-borderless table-sm">
+                        <tbody>
+                            <tr>
+                                <td>Team Key</td>
+                                <td colspan="2"><input name="input-teamkey" type="text" autocomplete="off" /> <small class="align-middle pb-2">(Like "frc5980" or "frc4003")</small></td>
+                            </tr>
+                            <tr>
+                                <td>Event Key</td>
+                                <td><input name="input-eventkey" type="text" autocomplete="off" /> <small class="align-middle pb-2">(Like "2019miwmi")</small></td>
+                            </tr>
+                            <tr>
+                                <td>Stream URL</td>
+                                <td><input name="input-streamurl" type="url" autocomplete="off" /> <button onclick="doTryGetStream();" class="btn btn-sm btn-light px-1 py-0"><small>Attempt Twitch Autofetch</small></button> <small><span class="align-middle" id="autofetch-status"></span></small></td>
+                            </tr>
+                            <tr>
+                                <td class="align-top pt-2">Sponsers</td>
+                                <td><input type="checkbox" id="input-showsponsers" value="showsponsers"> Show images from URLs (seperated by new lines): <button onclick="loadDefaultPics();" class="d-inline-block align-top btn btn-sm btn-light px-1 py-0"><small>Load Default List</small></button><br>
+                                <textarea id="input-sponserpics" name="input-sponserpics" class="small" cols="80" rows="8"></textarea></td>
+                            </tr>
+							<tr>
+                                <td>Load/Save</td>
+								<td>
+                                    <button onclick="loadDefaults(true);" class="btn btn-sm btn-secondary">5980 Defaults</button>
+                                    <button onclick="clearSetup();" class="btn btn-sm btn-danger">Clear</button>
+									<button onclick="doSave();" class="btn btn-sm btn-primary">Save</button>
+									<span class="d-inline-block align-middle" id="mod-status"></span>
+									<span class="d-inline-block align-middle" id="save-status"></span>
+								</td>
+							</tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+            <div class="pt-5">
+                <p class="lead">The below settings are preconfigured:</p>
+                <div id="lockedSettings">
+                    <table class="table-responsive table-borderless table-sm">
+                        <tbody>
+                            <tr>
+                                <td class="font-weight-bold">API Key</td>
+                                <td id="value-apikey"></td>
+                            </tr>
+                            <tr>
+                                <td class="font-weight-bold">Base URL</td>
+                                <td id="value-baseurl"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- BootStrap JS -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        
+        <!-- Custom JS -->
+        <script src="js/tba.js"></script>
+        <script src="js/settings.js"></script>
+        <script src="js/setuploader.js"></script>
+        <script src="js/defaults.js"></script>
+    
+    </body>
+    
+</html>
