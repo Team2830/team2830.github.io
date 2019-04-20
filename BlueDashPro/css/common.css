@@ -9,3 +9,8 @@
 .hidden {
     display: none;
 }
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+}

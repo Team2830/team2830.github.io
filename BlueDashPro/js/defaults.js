@@ -1,11 +1,13 @@
 var defaults = [];
 defaults["teamkey"] = "frc2830";
-defaults["eventkey"] = "2019cmpmi";
+defaults["eventkey"] = "2019ilch";
 defaults["streamurl"] = "[auto]";
 defaults["showsponsers"] = 1;
 defaults["sponserpics"] = [
-    "https://github.com/sykeben/BlueDashPro/raw/master/img/sponsers/7.png",
-    "https://github.com/sykeben/BlueDashPro/raw/master/img/sponsers/8.png"
+    "https://team2830.github.io/img/Rockwell.png",
+    "https://team2830.github.io/img/bliffert-lumber-logo.png",
+    "https://team2830.github.io/img/ge.png",
+    "https://team2830.github.io/img/msoe.png"
 ];
 
 function loadDefaults(loadsetup) {
