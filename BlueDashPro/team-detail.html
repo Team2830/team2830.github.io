@@ -33,7 +33,7 @@
         </ul>
     </div>
 <div>
-    <h4>Team: <div id="teamNumber"></div></h4>
+    <h4>Team: <a id="website"><div id="teamNumber"></div></a></h4>
     <div id="status"></div>
     <table class="table table-striped border">
         <thead>
@@ -46,10 +46,6 @@
             <tr>
                 <td>Name</td>
                 <td id="teamName">0</td>
-                           </tr>
-            <tr>
-                <td>Location</td>
-                <td id="teamLocation">0</td>
             </tr>
             <tr>
                 <td>Ranking</td>
@@ -82,7 +78,18 @@
     <script src="js/tba.js"></script>
     <script src="js/tbaTeamLoader.js"></script>
     <script src="js/style.js"></script>
-
+<script>
+function getParamByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, '\\$&');
+    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, ' '));
+}
+    loadTeamData("frc"+getParamByName("team"));
+</script>
 
 
 </body>

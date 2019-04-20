@@ -7,7 +7,9 @@ function doOnLoad() {
     }
     var streamUrl = getSetting("streamurl");
     if (streamUrl != null && streamUrl != "[none]") {
-        document.getElementById("streamFrame").src = streamUrl;
+        if( document.getElementById("streamFrame")){
+            document.getElementById("streamFrame").src = streamUrl;
+        }
     }
     if (getSetting("streambroken")) {
         document.getElementById("streamFrame").src = "streamerror/broken.html";
@@ -21,7 +23,6 @@ function doOnLoad() {
 
 function doInterval() {
     loadEventData();
-    loadMatchData();
 }
 
 function loadSponserPics() {
@@ -61,7 +62,7 @@ function loadEventData() {
             if (data.next_match_key){
                 nextMatchKey = data.next_match_key;
             }
-            loadUpcomingMatchData(getSetting("teamkey"),nextMatchKey);
+            loadUpcomingMatchData(nextMatchKey);
             loadTopRanks();
         }
     });
@@ -181,10 +182,10 @@ function loadNextMatch(data) {
         })
     }
 }
-function loadUpcomingMatchData(team, nextMatchKey){
+function loadUpcomingMatchData(nextMatchKey){
     $.ajax({
         type: "GET",
-        url: tbaUrl("/team/" + team + "/event/" + getSetting("eventkey") + "/matches/simple"),
+        url: tbaUrl("/team/" + getSetting("teamkey") + "/event/" + getSetting("eventkey") + "/matches/simple"),
         dataType: "json",
         success: function (data) {
             loadUpcomingOpponents(data, nextMatchKey);
@@ -270,7 +271,7 @@ function loadUpcomingOpponents(data, nextMatchKey) {
 
     for (var t = 0; t < teamArray.length; t++) {
         if(atNextMatch || nextMatchKey=='all'){
-            output += "<tr><td>" + teamArray[t].teamNumber + "</td>";
+            output += "<tr><td><a href='team-detail.html?team=" + teamArray[t].teamNumber +"' target='_blank'>" + teamArray[t].teamNumber + "</a></td>";
             output += "<td>" + teamArray[t].comp_level+teamArray[t].match + "</td>";
             output += "<td>" + teamArray[t].side + "</td></tr>";
         }else if( teamArray[t].comp_level+teamArray[t].match == nextMatchKey){
