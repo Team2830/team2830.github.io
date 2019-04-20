@@ -49,6 +49,7 @@ function formatTimeShow(h_24, m) {
 }
 
 function loadEventData() {
+    var nextMatchKey = "all";
     $.ajax({
         type: "GET",
         url: tbaUrl("/team/" + getSetting("teamkey") + "/event/" + getSetting("eventkey") + "/status"),
@@ -57,7 +58,10 @@ function loadEventData() {
             loadLastMatch(data);
             loadNextMatch(data);
             loadTeamRank(data);
-            loadUpcomingMatchData(getSetting("teamkey"));
+            if (data.next_match_key){
+                nextMatchKey = data.next_match_key;
+            }
+            loadUpcomingMatchData(getSetting("teamkey"),nextMatchKey);
             loadTopRanks();
         }
     });
@@ -177,21 +181,22 @@ function loadNextMatch(data) {
         })
     }
 }
-function loadUpcomingMatchData(team){
+function loadUpcomingMatchData(team, nextMatchKey){
     $.ajax({
         type: "GET",
         url: tbaUrl("/team/" + team + "/event/" + getSetting("eventkey") + "/matches/simple"),
         dataType: "json",
         success: function (data) {
-            loadUpcomingOpponents(data);
+            loadUpcomingOpponents(data, nextMatchKey);
         }
     });
 }
 
-function loadUpcomingOpponents(data) {
+function loadUpcomingOpponents(data, nextMatchKey) {
     var output = "";
     var opponentArray;
     var teamArray = [];
+    atNextMatch = false;
     for (key in data) {
         opposingAlliance = "blue";
         homeAlliance = "red";
@@ -264,9 +269,17 @@ function loadUpcomingOpponents(data) {
       teamArray.sort(compare);
 
     for (var t = 0; t < teamArray.length; t++) {
-        output += "<tr><td>" + teamArray[t].teamNumber + "</td>";
-        output += "<td>" + teamArray[t].comp_level+teamArray[t].match + "</td>";
-        output += "<td>" + teamArray[t].side + "</td></tr>";
+        if(atNextMatch || nextMatchKey=='all'){
+            output += "<tr><td>" + teamArray[t].teamNumber + "</td>";
+            output += "<td>" + teamArray[t].comp_level+teamArray[t].match + "</td>";
+            output += "<td>" + teamArray[t].side + "</td></tr>";
+        }else if( teamArray[t].comp_level+teamArray[t].match == nextMatchKey){
+            atNextMatch = true;
+            output += "<tr><td>" + teamArray[t].teamNumber + "</td>";
+            output += "<td>" + teamArray[t].comp_level+teamArray[t].match + "</td>";
+            output += "<td>" + teamArray[t].side + "</td></tr>";
+        }
+       
         
     }
 
