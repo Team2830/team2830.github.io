@@ -104,6 +104,51 @@
                 <h3>Follow us at Champs!!</h3>
             </div>
             <div class="row">
+            <!-- Next Match Cell-->
+            <div class="col-sm-6 m-4 bg-light border rounded">
+                <h4 class="p-2">Our Next Match</h4>
+                <table class="table table-striped border">
+                    <thead>
+                        <tr>
+                            <th class="text-light bg-danger" scope="col">Red</th>
+                            <th class="text-light bg-primary" scope="col">Blue</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="nextRed1">0</td>
+                            <td id="nextBlue1">0</td>
+                        </tr>
+                        <tr>
+                            <td id="nextRed2">0</td>
+                            <td id="nextBlue2">0</td>
+                        </tr>
+                        <tr>
+                            <td id="nextRed3">0</td>
+                            <td id="nextBlue3">0</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p style="font-size: 20px;" class="mb-n1">
+                    <strong>Number:</strong> <span id="nextMatchNumber"></span><br>
+                </p>
+            </div>
+            <!--Video Feed-->
+            <div class="col-sm-5 mt-4 bg-light border rounded">
+                <div id="vidcol" class="row">
+                    <div id="vidtitle">
+                        <h4 class="pb-1">Stream</h4>
+                    </div>
+                    <iframe src="https://player.twitch.tv/?channel=firstinspires" frameborder="0" allowfullscreen="true"
+                        scrolling="no" height="378" width="620"></iframe><a
+                        href="https://www.twitch.tv/firstinspires?tt_content=text_link&tt_medium=live_embed"
+                        style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;">Watch
+                        live video from FIRSTinspires on www.twitch.tv</a>
+                </div>
+            </div>
+        </div>
+            <!-- Our Last Match-->
+            <div class="row">
                 <div class="col-sm-5 m-2 bg-light border rounded">
                     <div class="col-sm-6 m-2">
                         <h4>Our Last Match</h4>
@@ -127,7 +172,7 @@
                                     <td id="lastRed3">0</td>
                                     <td id="lastBlue3">0</td>
                                 </tr>
-                            </tbody>
+                         </tbody>
                         </table>
                     </div>
                     <!-- This cell shows the score, match number and winner-->
@@ -149,18 +194,6 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-sm-5 m-2 bg-light border rounded">
-                    <div id="vidcol" class="row">
-                        <div id="vidtitle">
-                            <h4 class="pb-1">Stream</h4>
-                        </div>
-                        <iframe src="https://player.twitch.tv/?channel=firstinspires" frameborder="0"
-                            allowfullscreen="true" scrolling="no" height="378" width="620"></iframe><a
-                            href="https://www.twitch.tv/firstinspires?tt_content=text_link&tt_medium=live_embed"
-                            style="padding:2px 0px 4px; display:block; width:345px; font-weight:normal; font-size:10px; text-decoration:underline;">Watch
-                            live video from FIRSTinspires on www.twitch.tv</a>
                     </div>
                 </div>
             </div>
@@ -527,24 +560,22 @@
                             </div>
                             <div class="col-sm-4">
                                 <a href="http://www.bliffertlumber.com/" target="_blank"><img
-                                        src='img/bliffert-lumber-logo.png'  class="img-fluid" 
-                                                                                alt="Bliffert Lumber" /></a>
+                                        src='img/bliffert-lumber-logo.png' class="img-fluid"
+                                        alt="Bliffert Lumber" /></a>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-4">
                                 <a href="http://www.clark-graphics.com/" target="_blank"><img
-                                        src="img/ClarkGraphicsInfo.png"  class="img-fluid" 
-                                        alt="Clark Graphics" /></a>
+                                        src="img/ClarkGraphicsInfo.png" class="img-fluid" alt="Clark Graphics" /></a>
                             </div>
                             <div class="col-sm-4">
                                 <a href="http://www5.milwaukee.k12.wi.us/school/riverside/" target="_blank"><img
-                                        src="img/RoboTigersLogo-small.png"  class="img-fluid" 
-                                        alt="Riverside" /></a>
+                                        src="img/RoboTigersLogo-small.png" class="img-fluid" alt="Riverside" /></a>
                             </div>
                             <div class="col-sm-4">
                                 <a href="http://www3.gehealthcare.com/en/global_gateway" target="_blank"><img
-                                        src='img/ge.png'  class="img-fluid"  alt="GE" /></a>
+                                        src='img/ge.png' class="img-fluid" alt="GE" /></a>
                             </div>
                         </div>
                         <div class="row">
@@ -553,7 +584,7 @@
                             </div>
                             <div class="col-sm-4">
                                 <a href="https://www.msoe.edu/" target="_blank"><img src='img/msoe.png'
-                                    class="img-fluid"  alt="MSOE" /></a>
+                                        class="img-fluid" alt="MSOE" /></a>
                             </div>
                         </div>
 
@@ -563,19 +594,20 @@
                 <!-- Contact Container -->
                 <div class="fluid-container" id="contact">
                     <div class="row">
-                    <h2>Contact Us</h2>
+                        <h2>Contact Us</h2>
                     </div>
                     <div class="row">
-                        Riverside University High School<p /> 
+                        Riverside University High School
+                        <p />
                         <a href="https://goo.gl/maps/Mqhp5Ae464L2">1615 E Locust
                             St
                             Milwaukee, WI 53211</a>
                         <p /> (414) 906-4900
                     </div>
                     <div class="row">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93267.26896225478!2d-87.96014374721153!3d43.07083434387664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880518d720518721%3A0x21ef481dde7d15d0!2sRiverside+University+High+School!5e0!3m2!1sen!2sus!4v1489597113359"
-                        frameborder="0" style="border: 0" allowfullscreen></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93267.26896225478!2d-87.96014374721153!3d43.07083434387664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880518d720518721%3A0x21ef481dde7d15d0!2sRiverside+University+High+School!5e0!3m2!1sen!2sus!4v1489597113359"
+                            frameborder="0" style="border: 0" allowfullscreen></iframe>
                     </div>
                 </div>
                 <!-- Footer -->
