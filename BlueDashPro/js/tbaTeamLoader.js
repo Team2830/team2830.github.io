@@ -1,10 +1,28 @@
-
+function loadEventData(team) {
+    var nextMatchKey = "all";
+    $.ajax({
+        type: "GET",
+        url: tbaUrl("/team/" + team + "/event/" + getSetting("eventkey") + "/status"),
+        dataType: "json",
+        success: function (data) {
+            loadLastMatch(data);
+            loadNextMatch(data);
+            loadTeamRank(data);
+            if (data.next_match_key){
+                nextMatchKey = data.next_match_key;
+            }
+            loadUpcomingMatchData(nextMatchKey);
+            loadTopRanks();
+        }
+    });
+}
 function loadTeamData(team){
     $.ajax({
         type: "GET",
         url: tbaUrl("/team/" + team + "/event/" + getSetting("eventkey") + "/status"),
         dataType: "json",
         success: function (data) {
+            loadEventData(team)
             loadTeam(data,team);
         }
     });
