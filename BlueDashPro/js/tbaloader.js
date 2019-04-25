@@ -270,18 +270,9 @@ function loadUpcomingOpponents(data, nextMatchKey) {
       teamArray.sort(compare);
 
     for (var t = 0; t < teamArray.length; t++) {
-        if(atNextMatch){
             output += "<tr><td><a href='team-detail.html?team=" + teamArray[t].teamNumber +"' target='_blank'>" + teamArray[t].teamNumber + "</a></td>";
             output += "<td>" + teamArray[t].comp_level+teamArray[t].match + "</td>";
             output += "<td>" + teamArray[t].side + "</td></tr>";
-        }else if( teamArray[t].comp_level+teamArray[t].match == nextMatchKey){
-            atNextMatch = true;
-            output += "<tr><td>" + teamArray[t].teamNumber + "</td>";
-            output += "<td>" + teamArray[t].comp_level+teamArray[t].match + "</td>";
-            output += "<td>" + teamArray[t].side + "</td></tr>";
-        }
-       
-        
     }
 
 
