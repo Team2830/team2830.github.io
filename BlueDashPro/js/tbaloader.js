@@ -270,7 +270,7 @@ function loadUpcomingOpponents(data, nextMatchKey) {
       teamArray.sort(compare);
 
     for (var t = 0; t < teamArray.length; t++) {
-        if(atNextMatch || nextMatchKey=='all'){
+        if(atNextMatch){
             output += "<tr><td><a href='team-detail.html?team=" + teamArray[t].teamNumber +"' target='_blank'>" + teamArray[t].teamNumber + "</a></td>";
             output += "<td>" + teamArray[t].comp_level+teamArray[t].match + "</td>";
             output += "<td>" + teamArray[t].side + "</td></tr>";
