@@ -92,7 +92,7 @@ function loadTopRanks() {
             var rankData = data.rankings;
             if (data != null) {
                 for (var i = 0; i < 8; i++) {
-                    document.getElementById("rankTeam" + (i + 1).toString()).innerHTML = rankData[i].team_key.toString().replace("frc", "");
+                    document.getElementById("rankTeam" + (i + 1).toString()).innerHTML = "<a href='/BlueDashPro/team-detail.html?team="+rankData[i].team_key.toString().replace("frc", "")+"' target='_blank'>"+rankData[i].team_key.toString().replace("frc", "")+"</a>";
                     if (rankData[i].team_key.toString().replace("frc", "") == getSetting("teamkey").toString().replace("frc", "")) {
                         document.getElementById("rowTeam" + (i + 1).toString()).style = "background-color: lightgreen;";
                     } else {
@@ -177,7 +177,10 @@ function loadNextMatch(data) {
                     document.getElementById("nextBlue" + (i + 1).toString()).innerHTML = tempStart + tempTeamNumber + tempEnd;
                 }
 
+                var ptime =  new Date( data.predicted_time*1000);
                 document.getElementById("nextMatchNumber").innerHTML = data.match_number.toString();
+                document.getElementById("nextMatchTime").innerHTML = ptime.toLocaleTimeString();
+
             }
         })
     }
@@ -270,12 +273,12 @@ function loadUpcomingOpponents(data, nextMatchKey) {
       teamArray.sort(compare);
 
     for (var t = 0; t < teamArray.length; t++) {
-            output += "<tr><td><a href='team-detail.html?team=" + teamArray[t].teamNumber +"' target='_blank'>" + teamArray[t].teamNumber + "</a></td>";
+            output += "<tr><td><a href='/BlueDashPro/team-detail.html?team=" + teamArray[t].teamNumber +"' target='_blank'>" + teamArray[t].teamNumber + "</a></td>";
             output += "<td>" + teamArray[t].comp_level+teamArray[t].match + "</td>";
             output += "<td>" + teamArray[t].side + "</td></tr>";
     }
 
-
+// alert (output);
     //   output+= data[key].alliances['blue'].team_keys[0];
 
 document.getElementById("opponentsTab").innerHTML = output;
